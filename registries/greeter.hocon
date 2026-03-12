@@ -1,0 +1,14 @@
+{
+  include "registries/llm_config.hocon"
+
+  tools: [
+    {
+      name: "greeter"
+      function: {
+        description: "Top-level IT support greeter."
+      }
+      instructions: "You are the IT Support Greeter. Your ONLY job is to warmly welcome the user, ask them to describe their hardware or software issue, and gather basic details. Do not attempt to troubleshoot or solve the problem yourself."
+      tools: []
+    }
+  ]
+}

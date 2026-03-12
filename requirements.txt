@@ -1,0 +1,3 @@
+neuro-san
+langchain-google-vertexai
+python-dotenv
